@@ -1,0 +1,11 @@
+node_modules
+.DS_Store
+.idea
+.sfdx
+.vscode
+dist
+npm-debug.log
+config.json
+mocha.json
+reports
+package-lock.json

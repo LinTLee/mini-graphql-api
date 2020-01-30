@@ -1,0 +1,21 @@
+{
+  "name": "mini-graphql-api",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Lin Lee",
+  "description": "A mini GraphQL API",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LinTLee/mini-graphql-api"
+  },
+  "dependencies": {
+    "apollo-server-express": "~2.9.16",
+    "cookie-parser": "~1.4.4",
+    "express": "~4.17.1",
+    "graphql-tools": "~4.0.6"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
