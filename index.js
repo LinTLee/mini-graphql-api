@@ -1,33 +1,24 @@
+'use strict'
 const express = require('express')
-const bodyParser = require('body-parser')
-const { ApolloServer, gql } = require('apollo-server-express')
-const { makeExecutableSchema } = require('graphql-tools')
+const { ApolloServer } = require('apollo-server-express')
+const Api = require('./api')
+const port = 3000
 
-// Construct a schema, using GraphQL schema language
-const typeDefs = gql`
-  type Query {
-    hello: String
-  }
-`;
+// defines up a GraphQL schema
+Api.getSchema().then((schema) => {
+  // create an apollo server
+  const server = new ApolloServer({ 
+    typeDefs: schema.typeDefs, 
+    resolvers: schema.resolvers 
+  })
  
-// Provide resolver functions for your schema fields
-const resolvers = {
-  Query: {
-    hello: () => 'Hello world!',
-  },
-}
-
-// Put together a schema
-const schema = makeExecutableSchema({
-  typeDefs,
-  resolvers,
+  // create an express server
+  const app = express()
+  // attach apollo server to express
+  server.applyMiddleware({ app })
+  
+  // start up a server
+  app.listen({ port: port }, () =>
+    console.log(`🚀 Server ready at http://localhost:${port}${server.graphqlPath}`)
+  )
 })
- 
-const server = new ApolloServer({ typeDefs, resolvers })
- 
-const app = express();
-server.applyMiddleware({ app });
- 
-app.listen({ port: 3000 }, () =>
-  console.log(`🚀 Server ready at http://localhost:3000${server.graphqlPath}`)
-)
