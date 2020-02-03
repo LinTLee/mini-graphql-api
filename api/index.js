@@ -4,7 +4,7 @@ const path = require('path')
 
 /**
  * API defines GraphQL schema.
- * @class
+ * @class Api - a API class
  */
 class Api {
   /**

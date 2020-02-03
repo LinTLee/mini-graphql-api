@@ -2,7 +2,7 @@
 
 const resolvers = {
   Query: {
-    animals: () => {
+    animal: (year) => {
       return [{
         name: 'test'
       }]
