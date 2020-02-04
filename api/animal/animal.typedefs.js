@@ -12,17 +12,36 @@ const animal = gql`
     name: String!
 
     """
+    Chinese name of animal
+    """
+    chinese: String
+
+    """
     Zodiac years associated with the animal
     """
     years: [Int!]
 
+    """
+    Hours
+    """
+    hours: String
+
+    """
+    Characteristic
+    """
+    charateristic: String
+
+    """
+    Folklore
+    """
+    folklore: String
   }
 
   extend type Query {
     """
-    Search animal by specific year. Returns Animal type.
+    Search an animal by specific year and name. Returns Animal type.
     """
-    animal (year: Int): [Animal]
+    animal (year: Int, name: String): [Animal]
   }
 `
 
