@@ -13,7 +13,6 @@ class Animal {
     this.name = null
     this.chinese = null
     this.years = []
-    this.hours = null
     this.charateristic = null
     this.folklore = null
   }
@@ -44,7 +43,6 @@ class Animal {
       animal.name = record.name
       animal.chinese = record.chinese
       animal.years = record.years
-      animal.hours = record.hours
       animal.charateristic = record.charateristic
       animal.folklore = record.folklore
 

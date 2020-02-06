@@ -3,8 +3,8 @@ const Animal = require('./animal.model')
 
 const resolvers = {
   Query: {
-    animal: (obj, { year, name }, context, info) => {
-      return Animal.get({ year: year, name: name })
+    animal: (obj, args, context, info) => {
+      return Animal.get({ year: args.year, name: args.name })
     }
   }
 }

@@ -22,11 +22,6 @@ const animal = gql`
     years: [Int!]
 
     """
-    Hours
-    """
-    hours: String
-
-    """
     Characteristic
     """
     charateristic: String

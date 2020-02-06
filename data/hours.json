@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Rat",
+    "hoursOfDayStart": "23:00:00Z",
+    "hoursOfDayEnd": "01:00:00Z",
+    "branch": "Zi",
+    "chinese": "子",
+    "description": "Rats are at the height of their activity at this time and people began to associate rats with the Zi hour."
+  },
+  {
+    "name": "Ox",
+    "hoursOfDayStart": "01:00:00Z",
+    "hoursOfDayEnd": "03:00:00Z",
+    "branch": "Chou",
+    "chinese": "丑",
+    "description": "This is when farmers would wake up to feed their oxen."
+  },
+  {
+    "name": "Tiger",
+    "hoursOfDayStart": "03:00:00Z",
+    "hoursOfDayEnd": "05:00:00Z",
+    "branch": "Yin",
+    "chinese": "寅",
+    "description": "Tigers are the most dangerous at night. Farmers would always be able to hear their frightening roars during this hour."
+  },
+  {
+    "name": "Rabbit",
+    "hoursOfDayStart": "05:00:00Z",
+    "hoursOfDayEnd": "07:00:00Z",
+    "branch": "Mao",
+    "chinese": "卯",
+    "description": "At daybreak, rabbits would come out of their homes to feed on the dew."
+  },
+  {
+    "name": "Dragon",
+    "hoursOfDayStart": "07:00:00Z",
+    "hoursOfDayEnd": "09:00:00Z",
+    "branch": "Chen",
+    "chinese": "辰",
+    "description": "This is the most common time for fog to appear. According to folklore, dragons ride the fog to come down to Earth."
+  },
+  {
+    "name": "Snake",
+    "hoursOfDayStart": "09:00:00Z",
+    "hoursOfDayEnd": "11:00:00Z",
+    "branch": "Si",
+    "chinese": "巳",
+    "description": "After the fog has dissipated, snakes would come out to bask in the sun. When creating the character for sì (巳), it was written to look like a snake."
+  },
+  {
+    "name": "Horse",
+    "hoursOfDayStart": "11:00:00Z",
+    "hoursOfDayEnd": "13:00:00Z",
+    "branch": "Wu",
+    "chinese": "午",
+    "description": "When the sun is at its brightest moment, the horses would gallop and prance joyfully in the fields."
+  },
+  {
+    "name": "Goat",
+    "hoursOfDayStart": "13:00:00Z",
+    "hoursOfDayEnd": "15:00:00Z",
+    "branch": "Wei",
+    "chinese": "未",
+    "description": "At this time, the dew on the grass would be dried by the sun. This is the best hour to let the goats and sheep out."
+  },
+  {
+    "name": "Monkey",
+    "hoursOfDayStart": "15:00:00Z",
+    "hoursOfDayEnd": "17:00:00Z",
+    "branch": "Shen",
+    "chinese": "申",
+    "description": "The weather is much cooler with the sun setting and the monkeys would play around in the forest."
+  },
+  {
+    "name": "Rooster",
+    "hoursOfDayStart": "17:00:00Z",
+    "hoursOfDayEnd": "19:00:00Z",
+    "branch": "You",
+    "chinese": "酉",
+    "description": "The character for yǒu (酉) looks similar to wine (酒—jiǔ), and evening is the time for dinner and wine. It is also time to collect the roosters and hens and put them back in their nests, else it'll be too dark to find them."
+  },
+  {
+    "name": "Dog",
+    "hoursOfDayStart": "19:00:00Z",
+    "hoursOfDayEnd": "21:00:00Z",
+    "branch": "Xu",
+    "chinese": "戌",
+    "description": "Before sleeping, the people must patrol around for a check. Trailing behind them is the dog, humanity's little helper."
+  },
+  {
+    "name": "Pig",
+    "hoursOfDayStart": "21:00:00Z",
+    "hoursOfDayEnd": "23:00:00Z",
+    "branch": "Hai",
+    "chinese": "亥",
+    "description": "At night, the pig can be heard rustling around. In order to fatten it up, the farmer must feed before calling it a day."
+  }
+]
