@@ -3,6 +3,10 @@ const { gql } = require('apollo-server-express')
 
 const root = gql`
 
+  scalar Date
+  scalar Time
+  scalar DateTime
+
   """
   A root of query type schema
   """
