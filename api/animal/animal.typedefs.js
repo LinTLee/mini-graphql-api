@@ -34,9 +34,24 @@ const animal = gql`
 
   extend type Query {
     """
-    Search an animal by specific year and name. Returns Animal type.
+    Search animals. Returns an array of objects of Animal type.
     """
-    animal (year: Int, name: String): [Animal]
+    animal (input: AnimalInput): [Animal]
+  }
+
+  """
+  Search input for animals by specific year and name. Returns Animal type.
+  """
+  input AnimalInput {
+    """
+    Chinese calendar year associated with the animal
+    """
+    year: Int
+
+    """
+    Name of the animal
+    """
+    name: String
   }
 `
 

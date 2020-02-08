@@ -14,7 +14,7 @@ const resolvers = {
   },
   Mutation: {
     root: (obj, args, context, info) => {
-      return `hello, ${args.whoami}!`
+      return `hello, ${ args.whoami }!`
     } 
   }
 }
