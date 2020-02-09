@@ -9,7 +9,8 @@ Api.getSchema().then((schema) => {
   // create an apollo server
   const server = new ApolloServer({ 
     typeDefs: schema.typeDefs, 
-    resolvers: schema.resolvers
+    resolvers: schema.resolvers,
+    schemaDirectives: schema.directives,
   })
  
   // create an express server

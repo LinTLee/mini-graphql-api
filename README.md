@@ -10,6 +10,7 @@ Please note that the presenting data is designed for demostration only, and shou
 - Scalar Data Types
 - Splitting Schema with Dynamic Files Loads
 - Schema Extension
+- Directives
 
 ## Getting Started
 

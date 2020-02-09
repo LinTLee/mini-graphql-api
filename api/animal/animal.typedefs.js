@@ -46,7 +46,7 @@ const animal = gql`
     """
     Chinese calendar year associated with the animal
     """
-    year: Int
+    year: Int @range(min: 1924, max: 2031)
 
     """
     Name of the animal

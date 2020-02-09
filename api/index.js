@@ -1,6 +1,7 @@
 'use strict'
 const fs = require('fs')
 const path = require('path')
+const directives = require('./_directives')
 
 /**
  * API defines GraphQL schema.
@@ -46,7 +47,8 @@ class Api {
 
     return {
       typeDefs: typeDefs,
-      resolvers: resolvers
+      resolvers: resolvers,
+      directives: directives
     }
   }
 
