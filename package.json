@@ -10,7 +10,7 @@
     "url": "https://github.com/LinTLee/mini-graphql-api"
   },
   "dependencies": {
-    "apollo-server-express": "~2.9.16",
+    "apollo-server-express": "~2.14.2",
     "cookie-parser": "~1.4.4",
     "express": "~4.17.1",
     "graphql": "~14.6.0",
